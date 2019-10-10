@@ -1,0 +1,64 @@
+h1 {
+	width: 100%;
+	background: #e12e24;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+ol {
+  font-family:Georgia, Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  margin-left: 50px;
+  list-style: decimal;
+  color: #ffe47a;
+}
+
+ol li p {
+  padding: 0px 8px 8px 8px;
+  font-family: 'Muli', sans-serif;
+  font-style:normal;
+	font-size: 14px;
+/*  line-height: 20px;*/
+	color: #fff;
+  border-left: 1px solid #999;
+}
+
+ol li p em {
+  font-style: italic;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+ul p, ul.links {
+  padding: 8px 0 0 8px;
+}
+
+p.topic {
+  font-family:Georgia, Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #ffe47a;  
+}
+
+p.meta {
+  font-family: 'Muli', sans-serif;
+  font-style: italic;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+}
+
+ul.links li {
+  float: left;
+  border-left: 1px solid #999;
+  padding: 0 10px 0 10px;
+}
+
+ul.links li:first-child {
+  border: none;
+  padding: 0 10px 0 0;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #381808;
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+}
+
+a {
+	color: #fa463c;
+	text-decoration: none;
+}
+
+.inner-wrapper {
+	width: 990px;
+	margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Francois One', sans-serif;
+	text-transform: uppercase;
+	color: #ffe47a;
+}
+
+h1 {
+	font-size: 28px;
+	text-align: center;
+}
+
+h1:before {
+	content: url('/images/star-1.png');
+	margin-right: 10px;
+}
+
+h1:after {
+	content: url('/images/star-1.png');
+	margin-left: 10px;
+}
+
+h2 {
+	font-size: 13px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 4px;
+}
+
+h3 {
+	padding-bottom: 30px;
+	margin-bottom: 32px;
+
+	font-size: 26px;
+	text-align: center;
+	background: url('/images/star-divider.png') bottom center no-repeat;
+}
