@@ -1,3 +1,28 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Muli';
+    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/Muli.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Francois One';
+    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/FrancoisOne.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Passion One';
+    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/PassionOne.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base */
+
 html, body {
 	height: 100%;
 	background: #381808;
@@ -47,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-align: center;
   padding-top: 125px;
-/*  letter-spacing: -18px;*/
+  letter-spacing: -15px;
 	text-transform: uppercase;
 }
 
@@ -63,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .row > div h3 {
+  font-size: 28px;
   text-align: center;
 }
 
