@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/Muli.ttf');
+    src: url('/fonts/Muli.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Francois One';
-    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/FrancoisOne.ttf');
+    src: url('/fonts/FrancoisOne.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Passion One';
-    src: url('/Users/ssoper/workspace/cocoaheadsdc.github.io/fonts/PassionOne.ttf');
+    src: url('/fonts/PassionOne.ttf');
     font-weight: normal;
     font-style: normal;
 }
