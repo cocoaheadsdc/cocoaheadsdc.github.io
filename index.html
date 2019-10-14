@@ -68,12 +68,16 @@
     </div>
 
     <!-- Curved text -->
+    <script src="js/fontfaceobserver.min.js"></script>
     <script src="js/circletype.min.js"></script>
     <script langauge='javascript'>
-      setTimeout(() => {
+      let font = new FontFaceObserver('Passion One');
+      font.load().then(() => {
         new CircleType(document.getElementById('title')).radius(700);
         new CircleType(document.getElementById('subtitle')).radius(500);
-      }, 500);
+      }, () => {
+        console.log('Could not load required fonts');
+      });
     </script>
       
     <!-- Google Analytics -->
