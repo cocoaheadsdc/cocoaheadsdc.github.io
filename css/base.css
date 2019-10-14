@@ -12,6 +12,12 @@ body {
 	color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Francois One', sans-serif;
+	text-transform: uppercase;
+	color: #ffe47a;
+}
+
 #spotlight {
   height: 100%;
   background: #381808;
@@ -25,27 +31,16 @@ body {
 
 #mug {
   background-image: url('/images/mug.png');
-  background-size: 500px;
+  background-size: 350px;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Francois One', sans-serif;
-	text-transform: uppercase;
-	color: #ffe47a;
-}
-
-.row a, .row a:hover {
-  color: #fa463c;
-  text-decoration: none;
-}
-
 #title {
   font-family: 'Passion One';
-  font-size: 90px;
+  font-size: 70px;
   color: #fff;
   text-align: center;
   padding-top: 125px;
@@ -58,9 +53,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: #fff;
   text-align: center;
-  margin-top: -90px;
+  margin-top: -70px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.row a, .row a:hover {
+  color: #fa463c;
+  text-decoration: none;
 }
 
 .row > div h3 {
@@ -161,6 +161,18 @@ a.social-media:hover {
 /* Media queries */
 
 @media (min-width: 768px) {
+  #title {
+    font-size: 90px;
+  }
+
+  #subtitle {
+    margin-top: -90px;
+  }
+
+  #mug {
+    background-size: 500px;
+  }
+
   .row {
     padding-bottom: 50px;
   }
